@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_main">Main</string>
+    <string name="title_hint">Title</string>
+    <string name="add_note">New Task</string>
+    <string name="empty_message">Task title cannot be empty</string>
+</resources>

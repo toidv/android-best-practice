@@ -1,0 +1,57 @@
+ext {
+    androidPluginVer = "2.2.2"
+    compileSdkVer = 25
+    buildToolsVer = "25.0.0"
+
+    minSdkVer = 15
+    lolipopSdkVer = 21
+    targetSdkVer = 25
+
+    supportLibVer = "25.0.0"
+    googlePlayServicesVer = "9.6.1"
+
+    materialdialogsVer = "0.8.6.1"
+
+    junitVer = "4.12"
+    espressoCoreVer = "2.2.2"
+
+    butterknifeVer = "8.4.0"
+    daggerVer = "2.5"
+    jsr250apiVer = "1.0"
+    okhttpVer = "3.4.1"
+    okhttpLoggingInterceptorVer = "3.4.1"
+    gsonVer = "2.7"
+    rxandroidVer = "1.2.1"
+    rxjavaVer = "1.2.0"
+    rxbindingVer = "0.4.0"
+    retrofitVer = "2.1.0"
+    retrofitConverterGsonVer = "2.1.0"
+
+    glideVer = "3.7.0"
+    circleimageviewVer = "2.1.0"
+
+    materialishprogressVer = "1.7"
+    googlePlayServicesVer = "9.8.0"
+    stethoVer = "1.3.1"
+    stethorealmVer = "0.9.0"
+    materialdatetimepickerVer = "2.5.0"
+    timberVer = "4.1.2"
+    facebooksdkVer = "4.14.0"
+    multidexVer = "1.0.1"
+    bubblelayoutVer = "1.1.1"
+    cloudinaryVer = "1.4.2"
+    ucropVer = "2.2.0"
+    loggingintercepterVer = "3.4.1"
+    easyvideoplayerVer = "0.2.13"
+    materialcameraVer = "0.4.2"
+    rxpermissionVer = "0.8.0@aar"
+    multiviewpagerVer = "1.0"
+
+    swipeLayoutVer = "1.2.0"
+    keyboardvisibilityeventVer = "1.0.1"
+    braintreecardformVer = "2.3.1"
+    expandablerecyclerviewVer = "2.1.1"
+    calligraphyVer = "2.2.0"
+
+    dragselectrecyclerviewVer = "0.3.6"
+}
