@@ -54,7 +54,12 @@ public class AddTaskFragmentPresenter extends BasePresenter<AddTaskFragmentMvpVi
                     @Override
                     public void execute(Realm realm) {
                         Task task = realm.createObject(Task.class);
-                        int index = realm.where(Task.class).max("id").intValue() + 1;
+                        Number maxId = realm.where(Task.class).max("id");
+                        // Default index, if doesn't exist.
+                        int index = 10;
+                        if(maxId != null) {
+                            index = maxId.intValue() + 1;
+                        }
                         task.setId(index);
                         task.setName(title);
                         task.setState(Consts.TASK_STATE_PENDING);
